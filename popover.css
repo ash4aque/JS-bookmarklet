@@ -1,0 +1,134 @@
+input[type="text"], input[type="search"], input[type="number"], input[type="tel"], input[type="password"], .a-input-text {
+    height: 31px;
+    line-height: normal;
+    padding: 3px 7px;
+}
+input[type="text"], input[type="search"], input[type="number"], input[type="tel"], input[type="password"], textarea, select.a-select-multiple, .a-input-text {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #949494 #a6a6a6 #a6a6a6;
+    border-image: none;
+    border-radius: 3px;
+    border-right: 1px solid #a6a6a6;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(0, 0, 0, 0.07) inset;
+    outline: 0 none;
+}
+input, textarea {
+    background-color: none;
+}
+input, textarea, select {
+    font-family: Arial,sans-serif;
+    line-height: 19px;
+    transition: all 100ms linear 0s;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: middle;
+}
+* {
+    box-sizing: unset !important;
+}
+
+
+
+.pop-container{
+	background: none repeat scroll 0 0 #fff;
+	border: 1px solid;
+	box-shadow: 0 0 1em #fff inset, 0 1em 3em 0 #000;
+	height: 230px;
+	position: absolute;
+	right: 30px;
+	top: 60px;
+	width: 518px;
+	z-index: 2147483641;
+}
+.pop-container .header{
+  height: 50px;
+  text-align: center;
+}
+
+.pop-container .product {
+  border: 1px solid;
+  display: block;
+  height: 120px;
+  margin: 0 25px 25px;
+  padding-top: 16px;
+  width: 100px;
+}
+.pop-container .col1{
+  width: 29%;
+  height: 180px;
+  display: inline-block;
+}
+.pop-container .col2{
+  width: 69%;
+  height: 180px;
+  display: inline-block;
+  position: absolute;
+}
+.pop-container .logo {
+  height: 50px;
+}
+
+.pop-container .product-name {
+  padding: 4px 3px 3px; 
+  border-spacing: 0px; text-align: left; 
+  background-color: transparent;
+}
+.pop-container .input-name {
+    display: block;
+    height: 16px;
+    width: 80%;
+}
+.pop-container .input-btn {
+    display: block;
+    height: 30px;
+    width: 40%;
+    cursor: pointer;
+}
+.pop-container .pop-cancel{
+  height: 10px;
+  width: 10px;
+  float: right;
+  padding:10px;
+  cursor: pointer;
+}
+.pop-container .paginator{
+  bottom: 15px;
+  padding-right: 10px;
+  position: relative;
+  text-align: center;
+}
+.pop-container .prev{
+  background-image: url("http://dev.walmart.com/myJs/images/next-prev.png");
+  background-position: 15px 22px;
+  background-size: cover;
+  height: 11px;
+  position: absolute;
+  vertical-align: super;
+  width: 7px;
+  cursor: pointer;
+}
+.pop-container .next{
+  background-image: url("http://dev.walmart.com/myJs/images/next-prev.png");
+  background-position: 22px 22px;
+  background-size: cover;
+  height: 11px;
+  position: absolute;
+  vertical-align: super;
+  width: 7px;
+  cursor: pointer;
+}
+.pop-container .count{
+  font: 10px/130% Arial,Helvetica,Verdana,sans-serif;
+  margin: 10px;
+  vertical-align: top;
+}
